@@ -1,0 +1,234 @@
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.nav{
+    display: flex;
+    /* justify-content: space-around; */
+    padding-top: 2%;
+    width: 100%;
+}
+
+.logo{
+    font-size: 30px;
+    color: rgba(43, 43, 235, 0.772);
+    font-weight: bolder;
+    /* height: 100px; */
+    width: 30%;
+}
+
+.lists{
+    /* display: flex; */
+    justify-content: space-between;
+}
+
+.list{
+    font-size: 18px;
+    margin-right: 70px;
+    color: rgb(98, 95, 95);
+    font-weight:550;
+}
+
+#home{
+    color: rgba(43, 43, 235, 0.772);
+}
+
+.btn{
+    background-color: rgba(58, 58, 214, 0.772);
+    color: aliceblue;
+    width: 5%;
+    height: 40px;
+    font-size: medium;
+    margin-left: 200px;
+}
+
+.trial{
+    margin-top: 200px;
+    display: flex;
+
+}
+
+.trial div h1{
+    font-size: 60px;
+    margin-top: 0%;
+}
+
+.trial div p{
+    font-size: 25px;
+    color: silver;
+    font-weight: bold;
+}
+
+.btn1{
+    background-color: rgba(58, 58, 214, 0.772);
+        color: aliceblue;
+        width: 15%;
+        height: 70px;
+        font-size: medium;
+
+}
+
+
+
+.box {
+    height: 400px;
+    width: 600px;
+    border: 2px solid rgba(58, 58, 214, 0.772);
+    border-radius: 10px;
+    /* display: flex; */
+    background-color: rgba(45, 45, 137, 0.103);
+}
+
+.box div{
+    display: flex;
+    background-color: white;
+}
+
+.box div p{
+    margin-left: 2%;
+    margin-top: 2%;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    border: 2px solid rgba(58, 58, 214, 0.772);
+}
+
+.box h2{
+    height: 400px;
+    width: 600px;
+    border-top: 2px solid rgba(58, 58, 214, 0.772);
+    margin-top: 0%;
+}
+
+
+.features{
+    margin-top: 300px;
+}
+
+.features .features-title{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+
+.features-lists{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.features-list{
+    height: 200px;
+    width: 400px;
+}
+
+.features-list h1{
+    color: rgba(58, 58, 214, 0.772);
+    text-align: center;
+}
+
+.features-list h2 {
+    text-align: center;
+}
+
+
+
+.discover {
+    margin-top: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#discover-lists{
+    margin-left: 20px;
+}
+
+#discover-lists h1{
+    text-align:start;
+}
+
+.feedback{
+    margin-top: 500px;
+    text-align: center;
+}
+
+.feedback h1{
+    font-size: 40px;
+}
+
+.feedback p{
+    font-size: 20px;
+    color: silver;
+    font-weight: bold;
+}
+
+.footer{
+    margin-top: 100px;
+}
+
+
+.footer div{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+
+}
+
+.footer div p{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.btn2{
+    color: rgba(58, 58, 214, 0.772);
+    background-color: aliceblue;
+    font-weight: bold;
+    border: 0px;
+    margin-right: 0px;    
+}
+
+.btn3 {
+    background-color: rgba(58, 58, 214, 0.772);
+    color: aliceblue;
+    width: 100px;
+    height: 40px;
+    font-size: medium;
+}
+
+.btn4 {
+    background-color: aliceblue;
+    color: rgba(58, 58, 214, 0.772);
+        width: 15%;
+        height: 70px;
+        font-size: medium;
+        margin-left: 2%;
+}
+
+.buttons{
+    margin-left: 200px;
+}
+
+#trials{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.button{
+    text-align: center;
+}
+
+.shipping{
+    font-size: 25px;
+    color: silver;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -5%;
+}
